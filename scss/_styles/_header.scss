@@ -9,12 +9,73 @@
 
 header {
   padding: 12px 0;
-  > * {
-    display: flex;
-    align-items: center;
 
-    .logo {
-      height: 40px;
+  .logo {
+    width: 160px;
+    height: 40px;
+    flex: 0;
+  }
+  ul.menu {
+    word-break: keep-all;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0;
+    > li {
+      padding: 0 15px;
+      margin-right: 5px;
+      position: relative;
+      &:first-of-type {
+        padding-left: 0;
+      }
+      &:after {
+        font-family: "Font Awesome 6 Free";
+        content: "\f054";
+        font-weight: 600;
+        font-size: 12px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .search {
+    width: 210px;
+    margin: 10px 0;
+    position: relative;
+    flex: 0;
+    input {
+      width: 210px;
+      border: 1px solid;
+      height: 35px;
+    }
+    i {
+      position: absolute;
+      font-size: 14px;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .header-images {
+    width: 100%;
+    .image {
+      font-size: 11px;
+      font-weight: 400;
+      &:not(:last-of-type) {
+        margin-right: 6px;
+      }
+      img {
+        height: 56px;
+        & + span {
+          width: 100%;
+          display: block;
+          text-align: center;
+        }
+      }
     }
   }
 }
