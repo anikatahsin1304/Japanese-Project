@@ -1,0 +1,20 @@
+.top {
+  background: var(--blue, #4EA0DF);
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7px;
+}
+
+header {
+  padding: 12px 0;
+  > * {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      height: 40px;
+    }
+  }
+}

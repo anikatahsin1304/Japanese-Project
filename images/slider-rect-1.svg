@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271 46" width="271" height="46">
+    <title>slider-rect-1-svg</title>
+    <defs>
+        <image  width="138" height="46" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIoAAAAuCAMAAADA1HGuAAAAAXNSR0IB2cksfwAAAJ9QTFRF8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A8I0A1Nj16wAAADV0Uk5TcoA05v9QLQ/l8gDTtZR3WDsf/gTgwaOHakkpC+/Z9hQxS2iEob7a+hAsSmeDnbjV9Uc5QBlPsVBfAAAAsUlEQVR4nM3S13VCQRBEwQUWtxLeCu95eATkHxs/5EBNBHXudAg55PKhEJErOpSSQymHyrcJn6smhvKTmAf9OpSaQ6k7lIYz26ZDaTEPaneYKt3EUHoOpZ+YrQycKkOH8udQRg5lzMx2kpgqU4cycyhxzmwlLpwqS6fKyqGsnQdtnCpbp8rOqbJ3KDFjHhQPTpWjQzk5lLOzlYtT5epQbg7l7lBixsw2jhzKf3g8kXu9AXawgM/asjCdAAAAAElFTkSuQmCC"/>
+    </defs>
+    <style>
+        .s0 { fill: #f08d00 }
+    </style>
+    <path id="Rectangle 869" class="s0" d="m0.8 0.5h137.3v44.7h-137.3l2.5-22.4z"/>
+    <use id="Layer 1" href="#img1" x="133" y="0"/>
+</svg>

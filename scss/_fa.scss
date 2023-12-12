@@ -1,0 +1,28 @@
+/*!
+ * Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ * Copyright 2023 Fonticons, Inc.
+ */
+// Font Awesome core compile (Web Fonts-based)
+// -------------------------
+
+@import '_fa/functions';
+@import '_fa/variables';
+@import '_fa/mixins';
+@import '_fa/core';
+@import '_fa/sizing';
+@import '_fa/fixed-width';
+@import '_fa/list';
+@import '_fa/bordered-pulled';
+@import '_fa/animated';
+@import '_fa/rotated-flipped';
+@import '_fa/stacked';
+@import '_fa/icons';
+@import '_fa/screen-reader';
+
+/*
+Importing Icons
+ */
+@import '_fa/regular';
+@import '_fa/solid';
+@import '_fa/brands';

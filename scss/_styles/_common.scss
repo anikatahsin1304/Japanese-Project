@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url("../../fonts/NotoSansJP.ttf");
+}
+
+@font-face {
+    font-family: 'Orelega One';
+    src: url("../../fonts/OrelegaOne-Regular.ttf");
+}
+
+:root{
+    --blue: rgba(78, 160, 223, 1);
+    --orange: rgba(240, 141, 0, 1);
+}
+
+body {
+    background: white;
+    width: 100%;
+    font-family: Noto Sans JP, serif;
+    font-weight: 700;
+    color: rgba(19, 19, 20, 1);
+    line-height: 1;
+}
+
+
+.container.main {
+    width: 984px;
+    margin: auto;
+}
